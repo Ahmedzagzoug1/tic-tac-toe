@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zagzoug.tictactoc.Level"
+    android:background="#ffc800">
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="Easy"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:id="@+id/difficult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="about"
+        android:text="Difficult"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

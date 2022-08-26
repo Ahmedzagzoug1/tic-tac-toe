@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zagzoug.tictactoc.StartingActivity"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#ffc800">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="withComputer"
+    android:text="play with android"
+    android:layout_marginTop="20dp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="withSomeOne"
+        android:text="play with someone"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_volume_up_black"
+        android:onClick="setSound"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:background="#ffc800"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
